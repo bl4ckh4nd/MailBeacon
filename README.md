@@ -1,6 +1,3 @@
-Okay, here is a comprehensive README for your MailBeacon project, incorporating the details from your Python backend and React frontend files.
-
-```markdown
 # MailBeacon 🕵️📧
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/<your-username>/<your-repo>) <!-- Replace with actual build badge -->
