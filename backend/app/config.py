@@ -9,7 +9,7 @@ import tomli # Use tomli for TOML parsing
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
-# Default values similar to Rust's Config::default()
+
 DEFAULT_COMMON_PAGES = [
     "/contact", "/contact-us", "/contactus", "/contact_us",
     "/about", "/about-us", "/aboutus", "/about_us",
@@ -88,7 +88,7 @@ class Settings(BaseSettings):
         env_file_encoding = 'utf-8'
         # Allow reading settings from environment variables (case-insensitive)
         case_sensitive = False
-        # Prefix for environment variables (e.g., EMAIL_SLEUTH_DEBUG=true)
+        # Prefix for environment variables (e.g., MAILBEACON_DEBUG=true)
         env_prefix = "MAILBEACON_"
 
     # --- Validators ---
